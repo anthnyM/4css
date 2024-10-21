@@ -3,11 +3,14 @@ body{
 }
 
 .contenedor-flexible{
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     align-items: flex-end;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    height: 800px;
+    align-content: center;
 }
 
 .elemento-flexible{
@@ -17,35 +20,40 @@ body{
 
 .uno, .seis{
     background-color: lightblue;
-    width: 250px;
+    /* width: 250px; */
+    flex-basis: 250px;
     height: 250px;
     
 }
 
 .dos{
     background-color: lightcoral;
-    width: 250px;
+    /* width: 250px; */
+    flex-basis: 250px;
     height: 250px;
     
 }
 
 .tres, .siete{
     background-color: cyan;
-    width: 250px;
+    /* width: 250px; */
+    flex-basis: 250px;
     height: 250px;
     
 }
 
 .cuatro, .ocho{
     background-color: yellow;
-    width: 250px;
+    /* width: 250px; */
+    flex-basis: 250px;
     height: 250px;
     
 }
 
 .cinco{
     background-color: lightgreen;
-    width: 250px;
+    /* width: 250px; */
+    flex-basis: 250px;
     height: 250px;
     
 }
