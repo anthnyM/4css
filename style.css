@@ -4,40 +4,48 @@ body{
 
 .contenedor-flexible{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
 }
 
-.uno{
+.elemento-flexible{
+    font-size: 5rem;
+    color: white
+}
+
+.uno, .seis{
     background-color: lightblue;
     width: 250px;
     height: 250px;
-    font-size: 50px;
+    
 }
 
 .dos{
     background-color: lightcoral;
     width: 250px;
     height: 250px;
-    font-size: 50px;
+    
 }
 
-.tres{
-    background-color: lightcyan;
+.tres, .siete{
+    background-color: cyan;
     width: 250px;
     height: 250px;
-    font-size: 50px;
+    
 }
 
-.cuatro{
-    background-color: lightgoldenrodyellow;
+.cuatro, .ocho{
+    background-color: yellow;
     width: 250px;
     height: 250px;
-    font-size: 50px;
+    
 }
 
 .cinco{
     background-color: lightgreen;
     width: 250px;
     height: 250px;
-    font-size: 50px;
+    
 }
