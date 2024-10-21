@@ -6,11 +6,11 @@ body{
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    align-items: flex-end;
+    justify-content:flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
-    height: 800px;
-    align-content: center;
+    height: 700px;
+    align-content: flex-start;
 }
 
 .elemento-flexible{
@@ -23,7 +23,8 @@ body{
     /* width: 250px; */
     flex-basis: 250px;
     height: 250px;
-    
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .dos{
@@ -31,6 +32,8 @@ body{
     /* width: 250px; */
     flex-basis: 250px;
     height: 250px;
+    flex-grow: 2;
+    flex-shrink: 1;
     
 }
 
@@ -39,7 +42,8 @@ body{
     /* width: 250px; */
     flex-basis: 250px;
     height: 250px;
-    
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .cuatro, .ocho{
