@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+.contenedor-flexible{
+    display: flex;
+    flex-direction: column;
+}
+
+.uno{
+    background-color: lightblue;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+}
+
+.dos{
+    background-color: lightcoral;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+}
+
+.tres{
+    background-color: lightcyan;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+}
+
+.cuatro{
+    background-color: lightgoldenrodyellow;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+}
+
+.cinco{
+    background-color: lightgreen;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+}
